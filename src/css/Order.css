@@ -1,0 +1,62 @@
+.header-Order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black ;
+    position: relative;
+}
+
+.header-Order span{
+    position: absolute;
+    left: 0;
+
+}
+
+.button_cancel-Order {
+    cursor: pointer;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+.content-Order p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(64, 63, 63);
+}
+.content-Order h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+}
+
+.button-Order {
+    cursor: pointer;
+    padding: 0.8rem 3rem;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+    display: inline;
+}
+
+.content-Order span{
+    cursor: pointer;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    background-color: rgb(231, 231, 231);
+}
+.content {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content >span{
+    background-color: green;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    color: white;
+}

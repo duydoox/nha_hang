@@ -1,0 +1,36 @@
+.Dish {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.DetailDish {
+    border: 0.1px solid rgb(241, 241, 241);
+    width: 28%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #aaaaaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.info-Dish {
+    position: absolute;
+    bottom: 3rem;
+    right: 5rem;
+}
+
+.info-Dish span{
+    display: block;
+    margin: 1rem 0;
+} 
+.info-Dish .button-Dish{
+    margin-top: 1rem;
+    display: inline;
+    cursor: pointer;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+} 
